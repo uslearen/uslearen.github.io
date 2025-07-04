@@ -1,19 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uslearen">
     <title>Uslearen</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js"></script>
+    <script src="scripts/script.js" defer></script>
   </head>
   <body>
-    <p>Hi there,</p>
-    <p>This is going to be quite a sparse website for the time being, but please enjoy some goodies!</p>
-    <p>For example I have written a 
-      <a href="https://uslearen.com/font/README.pdf">pdf</a> 
-    that demonstrates my Anglish Font, which is a runic glyphs transliteration font, but please read the
-      <a href="https://uslearen.com/font/README.pdf">pdf</a> 
-    and after that, please feel free to download the 
-      <a href="https://uslearen.com/font/AnglishNotoSansRegular.ttf">font</a>.</p>
+    <header>
+      <div class="h1-horizontal">
+        <h1 class="left">Uslearen</h1>
+        <h1 class="right runes">Uslearen</h1>
+      <div>
+    </header>
+    <main>
+      <section>
+        <h1>About Uslearen</h1>
+        <p>
+          More information about this will come in the future, for now please
+          have a look at the font that was created to support Uslearen.
+        </p>
+      </section>
+      <section>
+        <h1>
+          The Anglish Runes – <r>Þe   Aŋlish   Runes</r>
+        </h1>
+        <p>
+          The font is
+          <a href="font/AnglishNotoSansRegular.ttf">“Anglish Runes”</a>
+          (click on the name to download the ttf), it’s adapted upon the font
+          <b>“Noto Sans – Regular”</b>, meaning that except of the changed
+          glyphs, the rest remains the original.
+        </p>
+        <p> 
+          Although the term <b>'Anglish'</b> usually means English with
+          non-germanic originating words removed, I have misappropriated it to
+          name this font. As I thought that it was fitting because it is a
+          script with the non-germanic glyphs removed.
+        </p>
+        <p>
+          The runes are based on the Anglo-Saxon/Frisian Runes (Futhorc)
+          variance which, according to Wikipedia, have been used in England and
+          the North of Netherlands from the 5th century onwards, up until the
+          high middle ages
+        </p>
+        <p>
+          Modern writing of runes, roughly falls in two categories. Those that
+          write it phonetically and use the runes to write out the sounds. And
+          those that replace the letters with the corresponding runes.
+        </p>
+        <p>
+          The goal of this font was to use it as a drop in replacement for text
+          written in English by switching the font, transliteration. It is not
+          meant to be historically accurate, however many runes with attested
+          sources are present.
+        </p>
+        <p>
+          I choose specifically Futhorc runes to work upon as I feel this is
+          more correct then using earlier Elder and Younger Futhark or later
+          derived runes like Medieval or Dalecarlian, as the latter two where
+          used primarily in the Scandinavian regions and not in England.
+        </p>
+        <p>
+          Even though this font is not intended to be historically accurate, I
+          do believe that it is likely that a literate person from that
+          historical era and area would be able to read what is written with
+          this font, but may struggle with the meaning, as many words have been
+          borrowed from other languages and beyond that have gone through
+          multiple rounds of vowel shifting and added/discarded letters.
+        </p>
+        <p>
+          To make it possible to transliterate modern English, certain letters
+          had to be added, specifically the <b>V</b>, <b>Y</b> and <b>Z</b>. I
+          used the same method that has been used historically, for example the
+          letter <b>C</b> and the letter <b>S</b> are phonetically similar, one
+          form of the letter <b>S</b> is <r>S</r> which is just the <b>C</b>
+          (<r>C</r>) upside down. Similar this has happened to letter <b>K</b>
+          (<r>K</r>) and <b>X</b> (<r>X</r>). So for <b>V</b> I opted to use the
+          upside down <b>F</b> (<r>F</r>) thus <r>V</r>. And for <b>Y</b> I used
+          the upside down <b>J</b> (<r>J</r>), being <r>Y</r>. The letter
+          <b>Z</b> I used the alternative <b>S</b> runic form being ᛊ and then
+          put it up side down <r>Z</r>.
+        </p>
+        <p>
+          The font has both upper case and lower case, these are the same
+          symbols but the lower case is drawn in less height space.
+          A common feature of runic inscriptions is that the words are not
+          separated by a space but by a middle dot or colon like feature, this
+          can be done by using the ‘Punctuation Space’ (<r>   </r>). 
+        </p>
+        <p>
+          There are no attested runic numbers equivalent to the western Arabic
+          numbers, as such I have created my own. The forms are roughly
+          equivalent to the shape of the hand made when counting. For the other
+          the punctuations I have just taken artistic liberty, as far as I know
+          there is no precedence.
+        </p>
+        <p>
+          Here is a table of the English Latin to Anglish Runic
+          <div class="table_component"><table>
+              <thead>
+                  <tr>
+                      <th>A</th>
+                      <th>B</th>
+                      <th>C</th>
+                      <th>D</th>
+                      <th>E</th>
+                      <th>F</th>
+                      <th>G</th>
+                      <th>H</th>
+                      <th>I</th>
+                      <th>J</th>
+                      <th>K</th>
+                      <th>L</th>
+                      <th>M</th>
+                      <th>N</th>
+                      <th>O</th>
+                      <th>P</th>
+                      <th>Q</th>
+                      <th>R</th>
+                      <th>S</th>
+                      <th>T</th>
+                      <th>U</th>
+                      <th>V</th>
+                      <th>W</th>
+                      <th>X</th>
+                      <th>Y</th>
+                      <th>Z</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="runes">
+                      <td>A</td>
+                      <td>B</td>
+                      <td>C</td>
+                      <td>D</td>
+                      <td>E</td>
+                      <td>F</td>
+                      <td>G</td>
+                      <td>H</td>
+                      <td>I</td>
+                      <td>J</td>
+                      <td>K</td>
+                      <td>L</td>
+                      <td>M</td>
+                      <td>N</td>
+                      <td>O</td>
+                      <td>P</td>
+                      <td>Q</td>
+                      <td>R</td>
+                      <td>S</td>
+                      <td>T</td>
+                      <td>U</td>
+                      <td>V</td>
+                      <td>W</td>
+                      <td>X</td>
+                      <td>Y</td>
+                      <td>Z</td>
+                  </tr>
+                  <tr></tr>
+              </tbody>
+          </table></div>
+        </p>
+        <p>
+          Note that the vowels have alternative forms, also ‘th’ (Þ) and ‘ng’
+          (Ŋ) have a single glyph version.
+          <div class="table_component"><table>
+              <thead>
+                  <tr>
+                      <th>Ä</th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th>Ë</th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th>Ï</th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th>Ŋ</th>
+                      <th>Ö</th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th>Þ</th>
+                      <th>Ü</th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="runes">
+                      <td>Ä</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td>Ë</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td>Ï</td>
+                      <td> </td>
+                      <td></td>
+                      <td> </td>
+                      <td> </td>
+                      <td>Ŋ</td>
+                      <td>Ö</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td>Þ</td>
+                      <td>Ü</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                  </tr>
+                  <tr></tr>
+              </tbody>
+          </table></div>
+        </p>
+        <p>
+          The digits and punctuations
+          <div class="table_component"><table>
+              <thead>
+                  <tr>
+                      <th>0</th>
+                      <th>1</th>
+                      <th>2</th>
+                      <th>3</th>
+                      <th>4</th>
+                      <th>5</th>
+                      <th>6</th>
+                      <th>7</th>
+                      <th>8</th>
+                      <th>9</th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th>?</th>
+                      <th>,</th>
+                      <th>;</th>
+                      <th>.</th>
+                      <th>!</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="runes">
+                      <td>0</td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>6</td>
+                      <td>7</td>
+                      <td>8</td>
+                      <td>9</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td>?</td>
+                      <td>,</td>
+                      <td>;</td>
+                      <td>.</td>
+                      <td>!</td>
+                  </tr>
+                  <tr></tr>
+              </tbody>
+          </table></div>
+        </p>
+        <p>
+        The alternative/combination forms are used as follows:
+        <div class="table_component"><table>
+            <thead>
+                <tr>
+                    <th>English Latin</th>
+                    <th>Anglish Latin</th>
+                    <th>Anglish Runic</th>
+                    <th colspan="3">Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ea</td>
+                    <td>ä</td>
+                    <td><r>ä</r></td>
+                    <td>Bear</td>
+                    <td>Bär</td>
+                    <td><r>Bär</r></td>
+                </tr>
+                <tr>
+                    <td>ea</td>
+                    <td>ë</td>
+                    <td><r>ë</r></td>
+                    <td>Hear</td>
+                    <td>Hër</td>
+                    <td><r>Hër</r></td>
+                </tr>
+                <tr>
+                    <td>ue</td>
+                    <td>ü</td>
+                    <td><r>ü</r></td>
+                    <td>Cues</td>
+                    <td>Cüs</td>
+                    <td><r>Cüs</r></td>
+                </tr>
+                <tr>
+                    <td> i</td>
+                    <td>ï</td>
+                    <td><r>Ï</r></td>
+                    <td>Site</td>
+                    <td>Sïte</td>
+                    <td><r>Sïte</r></td>
+                </tr>
+                <tr>
+                    <td>o</td>
+                    <td>ö</td>
+                    <td><r>ö</r></td>
+                    <td>Word</td>
+                    <td>Wörd</td>
+                    <td><r>Wörd</r></td>
+                </tr>
+                <tr>
+                    <td>th</td>
+                    <td>þ</td>
+                    <td><r>þ</r></td>
+                    <td>The</td>
+                    <td>þe</td>
+                    <td><r>Þe</r></td>
+                </tr>
+                <tr>
+                    <td>ng</td>
+                    <td>ŋ</td>
+                    <td><r>ŋ</r></td>
+                    <td>Ring</td>
+                    <td>Riŋ</td>
+                    <td><r>Riŋ</r></td>
+                </tr>
+                <tr></tr>
+            </tbody>
+          </table></div>
+        </p>
+       </section>
+       <section>
+        <p>Here is a small sample text in Anglish Runes:</p>
+        <p class="runes">
+          In   þe   beginniŋ   þe   Universe   was   created. Þis   has   made   a   lot   of   people   very   angryand   been   wïdely   regarded   as   a   bad   move.
+        </p>
+        <p class="runes">
+          Many   races   believe   þat   it   was   created   by   some   sort   of   god, þough   þe   Jatravartid   people   of   Viltvodle   6   believe   þat þe   entire   Universe was   in   fact   sneezed   out   of   þe   nose   of   a   beiŋ   called þe   Great   Green   Arkleseizure.
+        </p>
+        <p class="runes">
+          Þe   Jatravartids, who   live   in   perpetual   fear   of   þe   time   þey   call þe   Coming   of   þe   Great   Whïte   Handkerchief, are   small   blue   creatures   wiþ   more   þan   fifty   arms   each, who   are   þerefore   unique   in   beiŋ   þe   only   race   in   history to   have   invented   þe   aerosol   deodorant   before   þe   wheel.
+        </p>
+        <p class="runes">
+          – Douglas   Adams, Þe   Restaurant   at   þe   End   of   þe   Universe, chapter   1.
+        </p>
+       </section>
+       <section>
+        <h2>
+          Writing of the special characters:
+        </h2>
+        <p>
+          On linux and unix systems you can use the compose key (by default
+          right Shift + alt gr) and key combinations. On Windows you can either
+          use alt keys or install a program that adds linux like compose
+          functionality, for example
+          <a href="https://github.com/SamHocevar/wincompose">this</a>.
+
+          Here is a table of compose key descriptions:
+        </p>
+          <div class="table_component"><table>
+              <caption>table.csv</caption>
+              <thead>
+                  <tr>
+                      <th>Upper</th>
+                      <th>Lower</th>
+                      <th>letters</th>
+                      <th>as in</th>
+                      <th>unicode capital</th>
+                      <th>unicode small</th>
+                      <th>composition</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Ä</td>
+                      <td>ä</td>
+                      <td>ea</td>
+                      <td>Bear</td>
+                      <td>00c4</td>
+                      <td>00e4</td>
+                      <td>“ then A or a</td>
+                  </tr>
+                  <tr>
+                      <td>Ë</td>
+                      <td>ë</td>
+                      <td>ea</td>
+                      <td>Hear</td>
+                      <td>112</td>
+                      <td>113</td>
+                      <td>“ then E or e</td>
+                  </tr>
+                  <tr>
+                      <td>Ï</td>
+                      <td>ï</td>
+                      <td>i</td>
+                      <td>Hide</td>
+                      <td>00cf</td>
+                      <td>00ef</td>
+                      <td>“ then I or I</td>
+                  </tr>
+                  <tr>
+                      <td>Ö</td>
+                      <td>ö</td>
+                      <td>o</td>
+                      <td>Word</td>
+                      <td>00d6</td>
+                      <td>00f6</td>
+                      <td>“ then O or o</td>
+                  </tr>
+                  <tr>
+                      <td>Ü</td>
+                      <td>ü</td>
+                      <td>ue</td>
+                      <td>Cues</td>
+                      <td>00dc</td>
+                      <td>00fc</td>
+                      <td>“ then U or u</td>
+                  </tr>
+                  <tr>
+                      <td>Ŋ</td>
+                      <td>ŋ</td>
+                      <td>ng</td>
+                      <td>Ping</td>
+                      <td>014a</td>
+                      <td>014b</td>
+                      <td>N then G or n then g</td>
+                  </tr>
+                  <tr>
+                      <td>Þ</td>
+                      <td>þ</td>
+                      <td>th</td>
+                      <td>the</td>
+                      <td>00de</td>
+                      <td>00fe</td>
+                      <td>T then H or t then h</td>
+                  </tr>
+                  <tr>
+                      <td class="runes"> </td>
+                      <td colspan="3">Punctuation space</td>
+                      <td colspan="2">2008</td>
+                      <td>SPACE then .</td>
+                  </tr>
+                  <tr></tr>
+              </tbody>
+            </table></div>
+       </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Uslearen. All rights reserved.</p>
+    </footer>
   </body>
 </html>
