@@ -1,79 +1,93 @@
-html, body {
+body {
+    font-family: Arial, serif;
     margin: 0;
     padding: 0;
-    width: 100%;
     color: #333;
-    background-color: #f4f4f4;
-    min-height: 100vh;
+    font-size: 24px;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    font-size: 18px;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
 }
 
-/* Header styles */
 header {
-    color: #2c3e50;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: x-large;
-    flex-shrink: 0;
-}
-
-.h1-horizontal {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    flex-wrap: wrap;
+    background-color: seashell;
+    border-bottom: 2px solid grey;
 }
 
-.h1-horizontal .left {
+header div {
+    padding-left: 2em;
+    padding-right: 2em;
+    white-space: nowrap;
+}
+
+header div.left {
     margin-right: auto;
-    margin-left: 2em;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
-.h1-horizontal .right {
-    margin-left: auto;
-    margin-right: 2em;
-    margin-top: 0;
-    margin-bottom: 0;
+header div.right {
+    text-align: right;
 }
 
-/* Main content styles */
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
 main {
+    max-width: 60em; /* Maximum width for content */
+    width: 100%; /* Take full viewport width if smaller than max-width */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: seashell;
+    padding: 0.5em; /* Keep original padding */
     flex: 1;
-    width: 800px;
-    max-width: 100%; /* Prevent overflow on small screens */
-    margin: 0 auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;
-    overflow-x: auto; /* Enable horizontal scrolling for wide content */
-    max-height: calc(100vh - 100px);
+    box-sizing: border-box; /* Include padding in width calculations */
+    overflow-x: auto; /* Enable horizontal scrolling for main content */
 }
 
-/* Responsive adjustment for mobile */
-@media (max-width: 820px) {
-    main {
-        width: 100%; /* Full width on small screens */
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
+main p:first-child {
+    margin-top: 0;
+}
+
+main p:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: seashell;
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-top: 2px solid grey;
+    padding-top: 0.1em;
+    padding-bottom: 0.3em;
+    font-size: 0.75em;
+}
+
+@font-face {
+    font-family: 'anglish';
+    src: url('../font/AnglishNotoSansRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.runes, r {
+    font-family: 'anglish', sans-serif;
 }
 
 /* Table styles */
+.table-wrapper {
+    width: 100%; /* Ensure wrapper takes full width of main */
+}
+
 table {
-    width: 100%;
+    width: 59em; /* Fixed width for the table */
     border-collapse: collapse;
     margin: 1em 0;
 }
@@ -92,40 +106,4 @@ th {
 
 td {
     background-color: #fff;
-}
-
-section {
-    font-size: 1rem;
-}
-
-section a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section a:hover {
-    text-decoration: underline;
-    color: #2980b9;
-}
-
-/* Footer styles */
-footer {
-    padding-left: 1em;
-    background-color: #fff;
-    border-top: 1px solid #ddd;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0;
-}
-
-@font-face {
-    font-family: 'anglish';
-    src: url('../font/AnglishNotoSansRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-.runes, r {
-    font-family: 'anglish', sans-serif;
 }
