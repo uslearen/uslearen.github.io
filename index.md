@@ -83,12 +83,11 @@ For the letter Q I used ᛢ, there is little evidence that there was an actual l
 
 According to R.I. Page "An Introduction to English Runes" on page 43:
 
-
 > Apparently they also invented new runes, either filling gaps they felt existed, or providing runic equivalents for Roman letters not represented in the epigraphical futhorc: ᛡ ‘io’, ᛢ ‘q’, ᛥ ‘st’. These were never, I think, intended for practical use, and are therefore only curiosities in the history of runic studies, showing that the eccentricities of some present-day runologists were anticipated when runes were still a living, or perhaps a dying, script.
 
 But again as I want to use it for practical purposes, this is good enough for my purposes.
 
-V
+**V**
 
 For the letter V, I used the historical established pattern of making a similar sounding rune upside down (as in with c to s and x to k), in this case the similar sounding letter being F (ᚠ).
 
@@ -113,7 +112,6 @@ So the addition to the seax table using ‘standard’ rune from the wider runic
 
 With my changes and my design it looks like this:
 
-
 ![](images/table_az.png)
 
 I also wanted to preserve the thorn þ and eng ŋ runes, which are use to substitute ‘**th**’ and ‘**ng**’ with ᚦ and ᛝ. The othala ᛟ is in English related to the letter O, when pronounced like in ‘w**o**rd’.
@@ -121,7 +119,6 @@ I also wanted to preserve the thorn þ and eng ŋ runes, which are use to substi
 As mentioned before the ᚣ rune is likely to be diphthong like long vowel for U. Similarly for vowel combinations like ea, like in B**ea**r, the ᚫ is used whilst the ea in y**ea**r is more like long ee, which is the rune ᛠ. Another one is the long i for example in n**i**ce, that rune would be ᛇ.
 
 So putting that together it will look like this:
-
 
 ![](images/table_extra.png)
 
@@ -131,16 +128,13 @@ To make the Anglish runes applicable with modern texts I needed to add the basic
 
 For the digits, I loosely based it on the shape my left hand makes when counting, with the closed fist being 0, thumb out being 1, thumb and pointer 2, then up to 5 which symbolised a flat hand.
 
-
 ![](images/table_0_5.png)
 
 For digits 6 to 9, I repeated the design for 1 to 4 but added a ‘second’ hand type base.
 
-
 ![](images/table_6_9.png)
 
 For the punctuation marks, I just tried to give it some relative meaning and commonality with modern punctuations.
-
 
 ![](images/table_punctuations.png)
 
