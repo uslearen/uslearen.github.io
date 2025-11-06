@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Uslearen">
+    <title>Uslearen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="left"><h1>Uslearen</h1></div>
+      <div class="right runes"><h1>Uslären</h1></div>
+    </header>
+    <main class="pandoc-main">
+        $if(toc)$
+        <nav id="$idprefix$TOC" role="doc-toc">
+          $toc$
+        </nav>
+        $endif$
+        $body$
+    </main>
+    </main>
+      &copy; 2025 Uslearen. All rights reserved.
+    </footer>
+  </body>
+</html>
