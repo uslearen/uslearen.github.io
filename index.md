@@ -9,7 +9,7 @@ The Anglish Runic Font is designed for transliteration of English written in Lat
 The font is build upon [Noto Sans Regular](https://https://github.com/notofonts/latin-greek-cyrillic), with the Latin letters (glyphs) replaced with those of an Anglo-Saxon/Frisian Futhorc Runes based script. The following glyphs are replaced:
 
 * Lower case letters a to z and ä, ë, ï, ö, ü, ŋ (ng), þ (th)
-* Upper case letters (same as lower case just drawn taller)
+* Upper case letters (same as lower case just drawn taller using the same stroke width.)
 * Digits 0 to 9
 * Punctations marks  “.,?!;:”
 
@@ -17,7 +17,7 @@ This is an image of the runes being rendered in the font.
 
 ![](images/table_full_runic.png)
 
-If your browser [supports](https://www.w3schools.com/cssref/atrule_font-face.php) custom fonts (it likeley will) you will see them in this table.
+If your browser [supports](https://www.w3schools.com/cssref/atrule_font-face.php) custom fonts (it likely will) you will see them in this table.
 
 
 | <l>L</l> | <l>R</l> |   | <l>L</l> | <l>R</l> |   | <l>L</l>  | <l>R</l>  |   | <l>L</l> | <l>R</l> |   | <l>L</l> | <l>R</l> |
@@ -36,7 +36,7 @@ If your browser [supports](https://www.w3schools.com/cssref/atrule_font-face.php
 
 The mapping of those runes and the runes themselves are intended for practical use and as such workability has been prioritised over historical accuracy. You can read more about this in the Development section. This font is free to use, both privately and commercially based on the [SIL Open Font License](https://openfontlicense.org/), a requirement as it itself is based on the [Noto Project](https://github.com/notofonts).
 
-I have created a program that creates the appropiated kerning (spacing between each letter), but certain combinations may still look a bit strange. You may need to adjust that in your editor.
+The kerning tables (spacing between each letter) have been programmatically defined, they should be serviceable for standard text. Though if you do any graphic design with these, you probably want to nudge them to your preference, like you would do for any font type.
 
 ## Download
 
@@ -50,17 +50,26 @@ Although the term '[Anglish](https://anglish.org/wiki/Anglish)' is a term used b
 
 The runes are based on the [Anglo-Saxon/Frisian Runes (Futhorc) variance which, according to Wikipedia](https://en.wikipedia.org/wiki/Anglo-Saxon_runes), have been used in England and the North of Netherlands from the 5th century up until the high middle ages.
 
-Modern writing of runes, roughly falls in two categories. Those that write it phonetically and use the runes to write out the sounds, oftgen using the historical accurate word. And those that replace the letters with corresponding runes using common spelled words. The latter is made more difficult as there is not a one to one mapping of Runic and Latin letters.
+Modern writing of runes, roughly falls in two categories. Those that write it phonetically and use the runes to write out the sounds, often using the historical accurate word. And those that replace the letters with corresponding runes using common spelled words. The latter is made more difficult as there is not a one to one mapping of Runic and Latin letters.
 
 For that reasons I decided to adapt my own font.
 
 I choose specifically Futhorc runes to work upon as I feel this is more correct then using earlier [Elder](https://en.wikipedia.org/wiki/Elder_Futharkhttps:/) and [Younger](https://en.wikipedia.org/wiki/Younger_Futhark) Futhark or later derived runes like [Medieval](https://en.wikipedia.org/wiki/Medieval_runes) or [Dalecarlian](https://en.wikipedia.org/wiki/Dalecarlian_runes), as the latter two where used primarily in the Scandinavian regions and not in England.
 
-Even though this font is not intended to be historically accurate, I do believe that it is possible that a literate person from that historical era and area would be able to figure out eventually what is written with this script. But even then will struggle with the meaning, as many words have been borrowed from other languages and beyond that have gone through multiple rounds of vowel shifting and added/discarded letters.
-
 ## Development
 
-The premise is that for each common letter in the Latin Script I needed and Equivalent in Runic Script. Runes avoid horizontal markings as the wood, where it is carved in, would have its grain horizontal and horizontal carving could lead to splitting the wood. This is called the "medium-morphology hypothesis". On the surface this makes no sense, as the surviving material we have is either thick wood, metal or stone, neither having any real danger of splitting. However I hypothesis that the ‘daily’ writing was done on much thinner pieces of wood, think popsicle sticks and then the risk of splitting is very real. There is precedence in that hypothesis, for example, the [Bryggen Rune #B149](https://skaldic.org/db.php?id=15061&if=runic&table=mss).
+The premise is that for each common letter in the Latin Script I needed and Equivalent in Runic Script. Runes are characteristically composed of straight lines. This is hypothesised due to medium dependency according to 'The world's writing systems by Daniels, Peter T; Bright, William, 1928-2006, Section 25: The Runic Script; page 335', being the exact quote "The epigraphic character of runic lettering, with its avoidance of curves, may have resulted from initial scratching of runes into wood..." .
+
+I have noticed that many runic scripts also avoid horizontal lines, my hypothesis is that carvings where done left to right, due to right hand being dominant and thus holding the scratching implement. Thus writing would have been along the horizontal axis. That means that when a part of a tree is split to provide a blank to write on, the grain of the wood would also be horizontal. If you would carve horizontal lines you increase the likelihood of unintentionally splitting the wood again.
+
+On the surface this makes no sense, as the surviving material we have is either thick wood, metal or stone, neither having any real danger of splitting. However I further hypothesis that the ‘daily’ writing was done on much thinner pieces of wood, think popsicle sticks and then the risk of splitting is very real. There is precedence in that hypothesis, for example, the [Bryggen Rune #B149](https://skaldic.org/db.php?id=15061&if=runic&table=mss).
+
+As such I have taken the above as a design philosophy.
+
+### Mapping of the letters
+What letters are represented by which sound and thus by which rune is a rather debated subject. My approach was to stay as middle of the road as possible, or more accurately, the least amount of surprises whilst not shooting myself in the foot.
+ 
+I am fully aware that vowels shifts, regional dialects and class variation makes this for modern English already a difficult topic, never mind about something that is historical. To remain practical I had to draw the line somewhere and this is what I came up with, so no real justifications.
 
 ### Base
 
@@ -81,7 +90,7 @@ For the letter K, the upside down X is used; ᛣ , which is used in the 8th cent
 
 For the letter Q I used ᛢ, there is little evidence that there was an actual letter for it.
 
-According to R.I. Page "An Introduction to English Runes" on page 43:
+According to [R.I. Page 'An Introduction to English Runes'](https://www.google.co.uk/books/edition/An_Introduction_to_English_Runes/SgpriZdKin0C?hl=en) on page 43:
 
 > Apparently they also invented new runes, either filling gaps they felt existed, or providing runic equivalents for Roman letters not represented in the epigraphical futhorc: ᛡ ‘io’, ᛢ ‘q’, ᛥ ‘st’. These were never, I think, intended for practical use, and are therefore only curiosities in the history of runic studies, showing that the eccentricities of some present-day runologists were anticipated when runes were still a living, or perhaps a dying, script.
 
@@ -89,7 +98,7 @@ But again as I want to use it for practical purposes, this is good enough for my
 
 **V**
 
-For the letter V, I used the historical established pattern of making a similar sounding rune upside down (as in with c to s and x to k), in this case the similar sounding letter being F (ᚠ).
+For the letter V, I used the pattern I've seen above of making a similar sounding rune upside down (as in with c to s and x to k), in this case the similar sounding letter being F (ᚠ).
 
 #### Y
 
