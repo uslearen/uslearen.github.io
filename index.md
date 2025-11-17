@@ -67,8 +67,9 @@ On the surface this makes no sense, as the surviving material we have is either 
 As such I have taken the above as a design philosophy.
 
 ### Mapping of the letters
+
 What letters are represented by which sound and thus by which rune is a rather debated subject. My approach was to stay as middle of the road as possible, or more accurately, the least amount of surprises whilst not shooting myself in the foot.
- 
+
 I am fully aware that vowels shifts, regional dialects and class variation makes this for modern English already a difficult topic, never mind about something that is historical. To remain practical I had to draw the line somewhere and this is what I came up with, so no real justifications.
 
 ### Base
@@ -203,3 +204,96 @@ On linux and unix systems you can use the compose key (by default alt-gr) and ke
 ### Spaces
 
 With runes it is common to indicate spaces with either a colon or middle dot, personally I prefer the middle dot, which can be easily written with compose then “.” then “-”  resulting in “·”.
+
+# Anglish Font in Browser Example
+
+```{=html}
+<r>
+```
+
+## Genesis·1
+
+### Revised·Standard·Version·Caþolic·Edition
+
+#### Six·Days·of·Creation·and·þe·Sabbaþ
+
+1. In·þe·beginniŋ·God·created·þe·heavens·and·þe·earþ.
+2. Þe·earþ·was·wiþout·form·and·void,and·darkness·was·upon·þe·face·of·
+þe·deep; and·þe·Spirit·of·God·was·moviŋ·over·þe·face·of·þe·waters.
+
+3. And·God·said, “Let·þere·be·lïght”; and·þere·was·lïght.
+4. And·God·saw·þat·þe·lïght·was·good; and·God·separated·þe·lïght·from·
+þe·darkness.
+5. God·called·þe·lïght·Day,and·þe·darkness·he·called·Nïght·And·þere·
+was·eveniŋ·and·þere·was·morniŋ, one·day.
+
+6. And·God·said, “Let·þere·be·a·firmament·in·þe·midst·of·þe·waters, and·
+let·it·separate·þe·waters·from·þe·waters.”
+7. And·God·made·þe·firmament·and·separated·þe·waters·which·were·
+under·þe·firmament·from·þe·waters·which·were·above·þe·firmament·
+And·it·was·so·
+8. And·God·called·þe·firmament·Heaven·And·þere·was·eveniŋ·and·
+þere·was·morniŋ, a·second·day.
+
+9. And·God·said, “Let·þe·waters·under·þe·heavens·be·gaþered·togeþer·
+into·one·place,and·let·þe·dry·land·appear." And·it·was·so·
+10. God·called·þe·dry·land·Earþ,and·þe·waters·þat·were·gaþered·togeþer·
+he·called·Sës·And·God·saw·þat·it·was·good·
+11. And·God·said, “Let·þe·earþ·put·forþ·vegetation, plants·yieldiŋ·seed, and·
+fruit·trees·bäriŋ·fruit·in·which·is·þeir·seed, each·accordiŋ·to·its·kïnd,
+upon·þe·earþ." And·it·was·so·
+12. Þe·earþ·brought·forþ·vegetation, plants·yieldiŋ·seed·accordiŋ·to·þeir·
+own·kïnds, and·trees·beariŋ·fruit·in·which·is·þeir·seed, ëch·accordiŋ·to·
+its·kïnd·And·God·saw·þat·it·was·good·
+13. And·þere·was·eveniŋ·and·þere·was·morniŋ, a·þird·day.
+
+14. And·God·said, “Let·þere·be·lïghts·in·þe·firmament·of·þe·heavens·to·
+separate·þe·day·from·þe·night; and·let·þem·be·for·sïgns·and·for·
+seasons·and·for·days·and·yërs,
+15. and·let·þem·be·lïghts·in·þe·firmament·of·þe·heavens·to·give·lïght·
+upon·þe·earþ." And·it·was·so·
+16. And·God·made·þe·two·great·lïghts, þe·greater·lïght·to·rule·þe·day, and·
+þe·lesser·lïght·to·rule·þe·nïght; he·made·þe·stars·also·
+17. And·God·set·þem·in·þe·firmament·of·þe·heavens·to·give·lïght·upon·
+þe·earþ,
+18. to·rule·over·þe·day·and·over·þe·nïght, and·to·separate·þe·lïght·from·
+þe·darkness·And·God·saw·þat·it·was·good.
+19. And·þere·was·eveniŋ·and·þere·was·morniŋ, a·fourþ·day.
+
+20. And·God·said, “Let·þe·waters·briŋ·forþ·swarms·of·liviŋ·creatures, and·
+let·birds·fly·above·þe·earþ·across·þe·firmament·of·þe·heavens.”
+21. So·God·created·þe·great·së·monsters·and·every·liviŋ·creature·þat·
+moves, wiþ·which·þe·waters·swarm, accordiŋ·to·þeir·kïnds, and·every·
+wiŋed·bird·accordiŋ·to·its·kïnds·And·God·saw·þat·it·was·good.
+22. And·God·blessed·þem, sayiŋ, “Be·fruitful·and·multiply·and·fill·þe·water·
+in·þe·sës, and·let·birds·multiply·on·þe·earþ."
+23. And·þere·was·eveniŋ·and·þere·was·morniŋ, a·fifþ·day.
+
+24. And·God·said, “Let·þe·earþ·briŋ·forþ·liviŋ·creatures·accordiŋ·to·þeir·
+kïnds: cattle·and·creepiŋ·þiŋs·and·beasts·of·þe·earþ·accordiŋ·to·þeir·
+kïnds." And·it·was·so·
+25. And·God·made·þe·beasts·of·þe·earþ·accordiŋ·to·þeir·kïnds·and·þe·
+cattle·accordiŋ·to·þeir·kïnds,and·everyþiŋ·þat·creeps·upon·þe·ground·
+accordiŋ·to·its·kïnds·And·God·saw·þat·it·was·good.
+
+26. Þen·God·said, “Let·us·make·man·in·our·image,after·our·lïkeness; and·
+let·þem·have·dominion·over·þe·fish·of·þe·sea, and·over·þe·birds·of·þe·
+air, and·over·þe·cattle, and·over·all·þe·earþ,and·over·every·creepiŋ·þiŋ·
+þat·creeps·upon·þe·earþ."
+27. So·God·created·man·in·his·own·image, in·þe·image·of·God·he·create·
+him; male·and·female·he·created·þem·
+28. And·God·blessed·þem, and·God·said·to·þem, “Be·fruitful·and·multiply,
+and·fill·þe·earþ·and·subdue·it; and·have·dominion·over·þe·fish·of·þe·sea·and·
+over·þe·birds·of·þe·air·and·over·every·liviŋ·þiŋ·þat·moves·upon·þe·earþ."
+29. And·God·said, “Behold,Ï·have·given·you·every·plant·yieldiŋ·seed·
+which·is·upon·þe·face·of·all·þe·earþ, and·every·tree·wiþ·seed·in·its·
+fruit; you·shall·have·þem·for·food·
+30. And·to·every·beast·of·þe·earþ, and·to·every·bird·of·þe·air, and·to·
+everyþiŋ·þat·creeps·on·þe·earþ,everyþiŋ·þat·has·þe·breaþ·of·life, Ï·
+have·given·every·green·plant·for·food." And·it·was·so·
+31. And·God·saw·everyþiŋ·þat·he·had·made, and·behold, it·was·very·good·
+And·þere·was·eveniŋ·and·þere·was·morniŋ, a·sixþ·day.
+
+```{=html}
+</r>
+```
