@@ -213,18 +213,18 @@ With runes it is common to indicate spaces with either a colon or middle dot, pe
 
 ## Genesis·1
 
-### Revised·Standard·Version·Caþolic·Edition
+### Revïsed·Standard·Version·Caþolic·Edition
 
 #### Six·Days·of·Creation·and·þe·Sabbaþ
 
 1. In·þe·beginniŋ·God·created·þe·heavens·and·þe·earþ.
-2. Þe·earþ·was·wiþout·form·and·void,and·darkness·was·upon·þe·face·of·
+2. Þe·earþ·was·wiþout·form·and·void, and·darkness·was·upon·þe·face·of·
 þe·deep; and·þe·Spirit·of·God·was·moviŋ·over·þe·face·of·þe·waters.
 
 3. And·God·said, “Let·þere·be·lïght”; and·þere·was·lïght.
 4. And·God·saw·þat·þe·lïght·was·good; and·God·separated·þe·lïght·from·
 þe·darkness.
-5. God·called·þe·lïght·Day,and·þe·darkness·he·called·Nïght·And·þere·
+5. God·called·þe·lïght·Day, and·þe·darkness·he·called·Nïght·And·þere·
 was·eveniŋ·and·þere·was·morniŋ, one·day.
 
 6. And·God·said, “Let·þere·be·a·firmament·in·þe·midst·of·þe·waters, and·
@@ -236,8 +236,8 @@ And·it·was·so·
 þere·was·morniŋ, a·second·day.
 
 9. And·God·said, “Let·þe·waters·under·þe·heavens·be·gaþered·togeþer·
-into·one·place,and·let·þe·dry·land·appear." And·it·was·so·
-10. God·called·þe·dry·land·Earþ,and·þe·waters·þat·were·gaþered·togeþer·
+into·one·place, and·let·þe·dry·land·appear." And·it·was·so·
+10. God·called·þe·dry·land·Earþ, and·þe·waters·þat·were·gaþered·togeþer·
 he·called·Sës·And·God·saw·þat·it·was·good·
 11. And·God·said, “Let·þe·earþ·put·forþ·vegetation, plants·yieldiŋ·seed, and·
 fruit·trees·bäriŋ·fruit·in·which·is·þeir·seed, each·accordiŋ·to·its·kïnd,
@@ -273,23 +273,23 @@ in·þe·sës, and·let·birds·multiply·on·þe·earþ."
 kïnds: cattle·and·creepiŋ·þiŋs·and·beasts·of·þe·earþ·accordiŋ·to·þeir·
 kïnds." And·it·was·so·
 25. And·God·made·þe·beasts·of·þe·earþ·accordiŋ·to·þeir·kïnds·and·þe·
-cattle·accordiŋ·to·þeir·kïnds,and·everyþiŋ·þat·creeps·upon·þe·ground·
+cattle·accordiŋ·to·þeir·kïnds, and·everyþiŋ·þat·creeps·upon·þe·ground·
 accordiŋ·to·its·kïnds·And·God·saw·þat·it·was·good.
 
-26. Þen·God·said, “Let·us·make·man·in·our·image,after·our·lïkeness; and·
+26. Þen·God·said, “Let·us·make·man·in·our·image, after·our·lïkeness; and·
 let·þem·have·dominion·over·þe·fish·of·þe·sea, and·over·þe·birds·of·þe·
-air, and·over·þe·cattle, and·over·all·þe·earþ,and·over·every·creepiŋ·þiŋ·
+air, and·over·þe·cattle, and·over·all·þe·earþ, and·over·every·creepiŋ·þiŋ·
 þat·creeps·upon·þe·earþ."
 27. So·God·created·man·in·his·own·image, in·þe·image·of·God·he·create·
 him; male·and·female·he·created·þem·
 28. And·God·blessed·þem, and·God·said·to·þem, “Be·fruitful·and·multiply,
 and·fill·þe·earþ·and·subdue·it; and·have·dominion·over·þe·fish·of·þe·sea·and·
 over·þe·birds·of·þe·air·and·over·every·liviŋ·þiŋ·þat·moves·upon·þe·earþ."
-29. And·God·said, “Behold,Ï·have·given·you·every·plant·yieldiŋ·seed·
+29. And·God·said, “Behold, Ï·have·given·you·every·plant·yieldiŋ·seed·
 which·is·upon·þe·face·of·all·þe·earþ, and·every·tree·wiþ·seed·in·its·
 fruit; you·shall·have·þem·for·food·
 30. And·to·every·beast·of·þe·earþ, and·to·every·bird·of·þe·air, and·to·
-everyþiŋ·þat·creeps·on·þe·earþ,everyþiŋ·þat·has·þe·breaþ·of·life, Ï·
+everyþiŋ·þat·creeps·on·þe·earþ, everyþiŋ·þat·has·þe·breaþ·of·life, Ï·
 have·given·every·green·plant·for·food." And·it·was·so·
 31. And·God·saw·everyþiŋ·þat·he·had·made, and·behold, it·was·very·good·
 And·þere·was·eveniŋ·and·þere·was·morniŋ, a·sixþ·day.
