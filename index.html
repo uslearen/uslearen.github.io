@@ -27,6 +27,9 @@
           <li><a href="#development"
           id="toc-development">Development</a>
           <ul>
+          <li><a href="#mapping-of-the-letters"
+          id="toc-mapping-of-the-letters">Mapping of the
+          letters</a></li>
           <li><a href="#base" id="toc-base">Base</a></li>
           <li><a href="#comparison"
           id="toc-comparison">Comparison</a></li>
@@ -61,7 +64,7 @@
                 <li>Lower case letters a to z and ä, ë, ï, ö, ü, ŋ (ng),
                 þ (th)</li>
                 <li>Upper case letters (same as lower case just drawn
-                taller)</li>
+                taller using the same stroke width.)</li>
                 <li>Digits 0 to 9</li>
                 <li>Punctations marks “.,?!;:”</li>
                 </ul>
@@ -70,7 +73,7 @@
                 <p><img src="images/table_full_runic.png" /></p>
                 <p>If your browser <a
                 href="https://www.w3schools.com/cssref/atrule_font-face.php">supports</a>
-                custom fonts (it likeley will) you will see them in this
+                custom fonts (it likely will) you will see them in this
                 table.</p>
                 <table>
                 <colgroup>
@@ -295,10 +298,12 @@
                 Open Font License</a>, a requirement as it itself is
                 based on the <a href="https://github.com/notofonts">Noto
                 Project</a>.</p>
-                <p>I have created a program that creates the appropiated
-                kerning (spacing between each letter), but certain
-                combinations may still look a bit strange. You may need
-                to adjust that in your editor.</p>
+                <p>The kerning tables (spacing between each letter) have
+                been programmatically defined, they should be
+                serviceable for standard text. Though if you do any
+                graphic design with these, you probably want to nudge
+                them to your preference, like you would do for any font
+                type.</p>
                 <h2 id="download">Download</h2>
                 <p><a href="font/AnglishNotoSansRegular.ttf">Please
                 click on this link to download, after download double
@@ -322,7 +327,7 @@
                 middle ages.</p>
                 <p>Modern writing of runes, roughly falls in two
                 categories. Those that write it phonetically and use the
-                runes to write out the sounds, oftgen using the
+                runes to write out the sounds, often using the
                 historical accurate word. And those that replace the
                 letters with corresponding runes using common spelled
                 words. The latter is made more difficult as there is not
@@ -339,31 +344,51 @@
                 href="https://en.wikipedia.org/wiki/Dalecarlian_runes">Dalecarlian</a>,
                 as the latter two where used primarily in the
                 Scandinavian regions and not in England.</p>
-                <p>Even though this font is not intended to be
-                historically accurate, I do believe that it is possible
-                that a literate person from that historical era and area
-                would be able to figure out eventually what is written
-                with this script. But even then will struggle with the
-                meaning, as many words have been borrowed from other
-                languages and beyond that have gone through multiple
-                rounds of vowel shifting and added/discarded
-                letters.</p>
                 <h2 id="development">Development</h2>
                 <p>The premise is that for each common letter in the
                 Latin Script I needed and Equivalent in Runic Script.
-                Runes avoid horizontal markings as the wood, where it is
-                carved in, would have its grain horizontal and
-                horizontal carving could lead to splitting the wood.
-                This is called the “medium-morphology hypothesis”. On
-                the surface this makes no sense, as the surviving
+                Runes are characteristically composed of straight lines.
+                This is hypothesised due to medium dependency according
+                to ‘The world’s writing systems by Daniels, Peter T;
+                Bright, William, 1928-2006, Section 25: The Runic
+                Script; page 335’, being the exact quote “The epigraphic
+                character of runic lettering, with its avoidance of
+                curves, may have resulted from initial scratching of
+                runes into wood…” .</p>
+                <p>I have noticed that many runic scripts also avoid
+                horizontal lines, my hypothesis is that carvings where
+                done left to right, due to right hand being dominant and
+                thus holding the scratching implement. Thus writing
+                would have been along the horizontal axis. That means
+                that when a part of a tree is split to provide a blank
+                to write on, the grain of the wood would also be
+                horizontal. If you would carve horizontal lines you
+                increase the likelihood of unintentionally splitting the
+                wood again.</p>
+                <p>On the surface this makes no sense, as the surviving
                 material we have is either thick wood, metal or stone,
                 neither having any real danger of splitting. However I
-                hypothesis that the ‘daily’ writing was done on much
-                thinner pieces of wood, think popsicle sticks and then
-                the risk of splitting is very real. There is precedence
-                in that hypothesis, for example, the <a
+                further hypothesis that the ‘daily’ writing was done on
+                much thinner pieces of wood, think popsicle sticks and
+                then the risk of splitting is very real. There is
+                precedence in that hypothesis, for example, the <a
                 href="https://skaldic.org/db.php?id=15061&amp;if=runic&amp;table=mss">Bryggen
                 Rune #B149</a>.</p>
+                <p>As such I have taken the above as a design
+                philosophy.</p>
+                <h3 id="mapping-of-the-letters">Mapping of the
+                letters</h3>
+                <p>What letters are represented by which sound and thus
+                by which rune is a rather debated subject. My approach
+                was to stay as middle of the road as possible, or more
+                accurately, the least amount of surprises whilst not
+                shooting myself in the foot.</p>
+                <p>I am fully aware that vowels shifts, regional
+                dialects and class variation makes this for modern
+                English already a difficult topic, never mind about
+                something that is historical. To remain practical I had
+                to draw the line somewhere and this is what I came up
+                with, so no real justifications.</p>
                 <h3 id="base">Base</h3>
                 <p>My primary source is the 10th century “<a
                 href="https://www.britishmuseum.org/collection/object/H_1857-0623-1">Seax
@@ -470,8 +495,10 @@
                 <h4 id="q">Q</h4>
                 <p>For the letter Q I used ᛢ, there is little evidence
                 that there was an actual letter for it.</p>
-                <p>According to R.I. Page “An Introduction to English
-                Runes” on page 43:</p>
+                <p>According to <a
+                href="https://www.google.co.uk/books/edition/An_Introduction_to_English_Runes/SgpriZdKin0C?hl=en">R.I.
+                Page ‘An Introduction to English Runes’</a> on page
+                43:</p>
                 <blockquote>
                 <p>Apparently they also invented new runes, either
                 filling gaps they felt existed, or providing runic
@@ -486,9 +513,9 @@
                 <p>But again as I want to use it for practical purposes,
                 this is good enough for my purposes.</p>
                 <p><strong>V</strong></p>
-                <p>For the letter V, I used the historical established
-                pattern of making a similar sounding rune upside down
-                (as in with c to s and x to k), in this case the similar
+                <p>For the letter V, I used the pattern I’ve seen above
+                of making a similar sounding rune upside down (as in
+                with c to s and x to k), in this case the similar
                 sounding letter being F (ᚠ).</p>
                 <h4 id="y">Y</h4>
                 <p>For the letter Y my approach was to use the phonetic
