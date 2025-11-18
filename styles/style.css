@@ -39,12 +39,12 @@ header h1 {
 }
 
 main {
-    max-width: 60em; /* Maximum width for content */
+    max-width: 61em; /* Maximum width for content */
     width: 100%; /* Take full viewport width if smaller than max-width */
     margin-left: auto;
     margin-right: auto;
     background-color: seashell;
-    padding: 0.5em; /* Keep original padding */
+    padding: 0.75em; /* Keep original padding */
     flex: 1;
     box-sizing: border-box; /* Include padding in width calculations */
     overflow-x: auto; /* Enable horizontal scrolling for main content */
@@ -79,6 +79,7 @@ footer {
 
 .runes, r {
     font-family: 'anglish', sans-serif;
+    font-size: 1.25em;
 }
 
 /* Table styles */
