@@ -1,25 +1,18 @@
-# Makefile for Pandoc Markdown → HTML conversion
-# Usage:
-#   make         # builds index.html
-#   make html    # same as above
-#   make clean   # remove generated file
+# Find all Markdown files recursively
+SOURCES := $(shell find . -name '*.md')
 
-.PHONY: all html clean
+# Generate corresponding HTML targets (replace .md with .html, keep path)
+HTMLS := $(SOURCES:.md=.html)
 
-# Default target
-all: index.html
+# Default target: build all HTML files
+all: $(HTMLS)
 
-# Explicit html target (what you asked for)
-html: index.html
-
-# Rule to build index.html
-index.html: index.md template.html
-	pandoc index.md -o index.html \
+# Pattern rule: convert any .md to .html using your template and options
+%.html: %.md template.html
+	pandoc $< -o $@ \
 		--standalone \
 		--template=template.html \
-		--toc \
-		-M title="Uslearen"
-
-# Clean up
+		--toc
+# Optional: clean up generated HTML files
 clean:
-	rm -f index.html
+	rm -f $(HTMLS)

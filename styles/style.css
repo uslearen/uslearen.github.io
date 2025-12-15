@@ -15,6 +15,7 @@ header {
     padding-bottom: 0.25em;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     background-color: seashell;
     border-bottom: 2px solid grey;
 }
@@ -26,10 +27,13 @@ header div {
 }
 
 header div.left {
+    font-size: 1.25em;
+}
+div.left {
     margin-right: auto;
 }
 
-header div.right {
+div.right {
     text-align: right;
 }
 
@@ -59,6 +63,9 @@ main p:last-child {
 }
 
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
     background-color: seashell;
     margin: 0;
     padding-left: 0.5em;
